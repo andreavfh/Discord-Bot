@@ -1,0 +1,42 @@
+# Directorio de compilación de Cargo
+/target/
+/**/target/
+
+# Archivos lock y configuración de Cargo
+Cargo.lock
+.cargo/
+
+# Archivos generados por compiladores y enlazadores
+*.rlib
+*.rmeta
+*.d
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+
+# Archivos de backup y temporales
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDEs y editores
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs y documentación generada
+*.log
+/coverage/
+/doc/
+
+# Configuraciones específicas de sistema operativo
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de entorno con credenciales sensibles
+.env
