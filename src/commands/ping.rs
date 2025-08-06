@@ -1,4 +1,4 @@
-use crate::command::{SlashCommand, HasInstance}; // Import HasInstance!
+use crate::command::{SlashCommand, HasInstance};
 use serenity::all::*;
 use async_trait::async_trait;
 use crate::register_slash_command;
